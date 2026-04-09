@@ -24,6 +24,9 @@
 
     > WP4 use cases that include payment steps (hotel booking, taxi, ferry, train tickets, student fares) rely on WP6.
 
+    - 2.3.3.1 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+    - 2.3.3.2 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+
 - 2.4 Document Structure (GRNET)
 
 - 2.5 Terminology and Definitions (GRNET)
@@ -42,9 +45,33 @@
 
   > Categories of stakeholders consulted/involved and the engagement methods (workshops, bilateral calls, written questionnaires).
 
+  - 3.2.1 UC 1: Board the flight (Amadeus)
+  - 3.2.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+  - 3.2.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+  - 3.2.4 UC 4: Streamlined Travel Experience (FastID)
+  - 3.2.5 UC 5: Stadium Access (FastID)
+  - 3.2.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+  - 3.2.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+  - 3.2.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+  - 3.2.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+  - 3.2.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+  - 3.2.11 UC 11: France-Canada Student Digital Identity (SIROS)
+
 - 3.3 Sources and Tools (All UC leads)
 
   > Key reference documents (ARF, eIDAS Implementing Acts, ICAO standards, IATA specifications, European Student Card Initiative documentation) and any collaborative tools used (e.g., document repositories, shared templates).
+
+  - 3.3.1 UC 1: Board the flight (Amadeus)
+  - 3.3.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+  - 3.3.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+  - 3.3.4 UC 4: Streamlined Travel Experience (FastID)
+  - 3.3.5 UC 5: Stadium Access (FastID)
+  - 3.3.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+  - 3.3.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+  - 3.3.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+  - 3.3.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+  - 3.3.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+  - 3.3.11 UC 11: France-Canada Student Digital Identity (SIROS)
 
 ### 4. WP4 Scenarios and Use Cases
 
@@ -54,37 +81,37 @@
 
   > High-level summary table of all 11 accepted use cases.
 
-- 4.2 UC 1 -- Board the Flight (Amadeus)
+- 4.2 UC 1: Board the Flight (Amadeus)
 
-- 4.3 UC 2 -- Electronic Travel Authorization / ETA (Amadeus)
+- 4.3 UC 2: Electronic Travel Authorization / ETA (Amadeus)
 
-- 4.4 UC 3 -- Seamless Digital Traveller Experience / SEDIT-X (UAegean)
+- 4.4 UC 3: Seamless Digital Traveller Experience / SEDIT-X (UAegean)
 
-  - 4.4.1 Episode 1 -- Smart Airport: Biometric Boarding (UAegean)
+  - 4.4.1 Episode 1: Smart Airport: Biometric Boarding (UAegean)
 
-  - 4.4.2 Episode 2 -- Urban Mobility in Athens (UAegean)
+  - 4.4.2 Episode 2: Urban Mobility in Athens (UAegean)
 
-  - 4.4.3 Episode 3 -- Ferry Transport (UAegean)
+  - 4.4.3 Episode 3: Ferry Transport (UAegean)
 
-  - 4.4.4 Episode 4 -- Hospitality (UAegean)
+  - 4.4.4 Episode 4: Hospitality (UAegean)
 
-  - 4.4.5 Episode 5 -- Academic Access (UAegean)
+  - 4.4.5 Episode 5: Academic Access (UAegean)
 
-- 4.5 UC 4 -- Streamlined Travel Experience (FastID)
+- 4.5 UC 4: Streamlined Travel Experience (FastID)
 
-- 4.6 UC 5 -- Stadium Access (FastID)
+- 4.6 UC 5: Stadium Access (FastID)
 
-- 4.7 UC 6 -- European Student Experience / Student Access via EUDI Wallet (iDAKTO / PagoPA)
+- 4.7 UC 6: European Student Experience / Student Access via EUDI Wallet (iDAKTO / PagoPA)
 
-- 4.8 UC 7 -- Accessing Discounted Train Fares via EUDIW (PagoPA)
+- 4.8 UC 7: Accessing Discounted Train Fares via EUDIW (PagoPA)
 
-- 4.9 UC 8 -- Overnight Hospitality & Cross-Border Train Journey (PagoPA)
+- 4.9 UC 8: Overnight Hospitality & Cross-Border Train Journey (PagoPA)
 
-- 4.10 UC 9 -- Biometric Profile / Carrier Held Biometrics for Seamless Airport Travel (IN Groupe)
+- 4.10 UC 9: Biometric Profile / Carrier Held Biometrics for Seamless Airport Travel (IN Groupe)
 
-- 4.11 UC 10 -- Streamlined End-to-End Hotel Booking (IDnow)
+- 4.11 UC 10: Streamlined End-to-End Hotel Booking (IDnow)
 
-- 4.12 UC 11 -- France-Canada Student Digital Identity (SIROS Foundation)
+- 4.12 UC 11: France-Canada Student Digital Identity (SIROS Foundation)
 
 ### 5. Current Landscape and Baseline Analysis (All UC leads → GRNET)
 
@@ -128,47 +155,234 @@
 
   > How WP4 implementations align with the ARF: which ARF components are used (wallet instance, PID provider, attestation provider, relying party), which protocol profiles, baseline version.
 
-  - 7.1.1 "UC Title - UC Lead name" (repeating for all use cases)
+  - 7.1.1 UC 1: Board the flight (Amadeus)
+  - 7.1.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+  - 7.1.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+  - 7.1.4 UC 4: Streamlined Travel Experience (FastID)
+  - 7.1.5 UC 5: Stadium Access (FastID)
+  - 7.1.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+  - 7.1.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+  - 7.1.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+  - 7.1.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+  - 7.1.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+  - 7.1.11 UC 11: France-Canada Student Digital Identity (SIROS)
 
 - 7.2 Credential Types and Attestations Used in WP4 (All UC leads → GRNET)
 
   > Overview of all credential types that appear across the 11 use cases, with their data models, issuers, and intended verifiers.
 
-  - 7.2.1 UC 1
+  - 7.2.1 UC 1: Board the flight (Amadeus)
       - 7.2.1.1 PID (Personal Identification Data)
       - 7.2.1.2 Electronic Attestations of Attributes (EAA / QEAA)
 
-  - 7.2.2 UC 2
-  ...
+  - 7.2.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+      - 7.2.2.1 PID (Personal Identification Data)
+      - 7.2.2.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+      - 7.2.3.1 PID (Personal Identification Data)
+      - 7.2.3.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.4 UC 4: Streamlined Travel Experience (FastID)
+      - 7.2.4.1 PID (Personal Identification Data)
+      - 7.2.4.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.5 UC 5: Stadium Access (FastID)
+      - 7.2.5.1 PID (Personal Identification Data)
+      - 7.2.5.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+      - 7.2.6.1 PID (Personal Identification Data)
+      - 7.2.6.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+      - 7.2.7.1 PID (Personal Identification Data)
+      - 7.2.7.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+      - 7.2.8.1 PID (Personal Identification Data)
+      - 7.2.8.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+      - 7.2.9.1 PID (Personal Identification Data)
+      - 7.2.9.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+      - 7.2.10.1 PID (Personal Identification Data)
+      - 7.2.10.2 Electronic Attestations of Attributes (EAA / QEAA)
+
+  - 7.2.11 UC 11: France-Canada Student Digital Identity (SIROS)
+      - 7.2.11.1 PID (Personal Identification Data)
+      - 7.2.11.2 Electronic Attestations of Attributes (EAA / QEAA)
 
 - 7.3 Issuance, Verification and Revocation Flows (All UC leads)
 
-  - 7.3.1 UC 1
+  - 7.3.1 UC 1: Board the flight (Amadeus)
     - 7.3.1.1 Issuance
     - 7.3.1.2 Verification
     - 7.3.1.3 Revocation
+
+  - 7.3.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+    - 7.3.2.1 Issuance
+    - 7.3.2.2 Verification
+    - 7.3.2.3 Revocation
+
+  - 7.3.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+    - 7.3.3.1 Issuance
+    - 7.3.3.2 Verification
+    - 7.3.3.3 Revocation
+
+  - 7.3.4 UC 4: Streamlined Travel Experience (FastID)
+    - 7.3.4.1 Issuance
+    - 7.3.4.2 Verification
+    - 7.3.4.3 Revocation
+
+  - 7.3.5 UC 5: Stadium Access (FastID)
+    - 7.3.5.1 Issuance
+    - 7.3.5.2 Verification
+    - 7.3.5.3 Revocation
+
+  - 7.3.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+    - 7.3.6.1 Issuance
+    - 7.3.6.2 Verification
+    - 7.3.6.3 Revocation
+
+  - 7.3.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+    - 7.3.7.1 Issuance
+    - 7.3.7.2 Verification
+    - 7.3.7.3 Revocation
+
+  - 7.3.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+    - 7.3.8.1 Issuance
+    - 7.3.8.2 Verification
+    - 7.3.8.3 Revocation
+
+  - 7.3.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+    - 7.3.9.1 Issuance
+    - 7.3.9.2 Verification
+    - 7.3.9.3 Revocation
+
+  - 7.3.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+    - 7.3.10.1 Issuance
+    - 7.3.10.2 Verification
+    - 7.3.10.3 Revocation
+
+  - 7.3.11 UC 11: France-Canada Student Digital Identity (SIROS)
+    - 7.3.11.1 Issuance
+    - 7.3.11.2 Verification
+    - 7.3.11.3 Revocation
 
 - 7.4 Selective Disclosure and User Consent (All UC leads)
 
   > How WP4 use cases implement selective disclosure.
 
-  - 7.4.1 UC 1
+  - 7.4.1 UC 1: Board the flight (Amadeus)
     - 7.4.1.1 Selective Disclosure
     - 7.4.1.2 User Consent
+
+  - 7.4.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+    - 7.4.2.1 Selective Disclosure
+    - 7.4.2.2 User Consent
+
+  - 7.4.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+    - 7.4.3.1 Selective Disclosure
+    - 7.4.3.2 User Consent
+
+  - 7.4.4 UC 4: Streamlined Travel Experience (FastID)
+    - 7.4.4.1 Selective Disclosure
+    - 7.4.4.2 User Consent
+
+  - 7.4.5 UC 5: Stadium Access (FastID)
+    - 7.4.5.1 Selective Disclosure
+    - 7.4.5.2 User Consent
+
+  - 7.4.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+    - 7.4.6.1 Selective Disclosure
+    - 7.4.6.2 User Consent
+
+  - 7.4.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+    - 7.4.7.1 Selective Disclosure
+    - 7.4.7.2 User Consent
+
+  - 7.4.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+    - 7.4.8.1 Selective Disclosure
+    - 7.4.8.2 User Consent
+
+  - 7.4.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+    - 7.4.9.1 Selective Disclosure
+    - 7.4.9.2 User Consent
+
+  - 7.4.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+    - 7.4.10.1 Selective Disclosure
+    - 7.4.10.2 User Consent
+
+  - 7.4.11 UC 11: France-Canada Student Digital Identity (SIROS)
+    - 7.4.11.1 Selective Disclosure
+    - 7.4.11.2 User Consent
 
 - 7.5 Trust Framework and Trusted Issuer Lists (All UC leads)
 
   > How WP4 relying parties determine whether a presented credential is trustworthy, covering cross-border cases.
 
-  - 7.5.1 UC 1
+  - 7.5.1 UC 1: Board the flight (Amadeus)
     - 7.5.1.1 Trust Framework
     - 7.5.1.2 Trusted Issuer Lists
+
+  - 7.5.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+    - 7.5.2.1 Trust Framework
+    - 7.5.2.2 Trusted Issuer Lists
+
+  - 7.5.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+    - 7.5.3.1 Trust Framework
+    - 7.5.3.2 Trusted Issuer Lists
+
+  - 7.5.4 UC 4: Streamlined Travel Experience (FastID)
+    - 7.5.4.1 Trust Framework
+    - 7.5.4.2 Trusted Issuer Lists
+
+  - 7.5.5 UC 5: Stadium Access (FastID)
+    - 7.5.5.1 Trust Framework
+    - 7.5.5.2 Trusted Issuer Lists
+
+  - 7.5.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+    - 7.5.6.1 Trust Framework
+    - 7.5.6.2 Trusted Issuer Lists
+
+  - 7.5.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+    - 7.5.7.1 Trust Framework
+    - 7.5.7.2 Trusted Issuer Lists
+
+  - 7.5.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+    - 7.5.8.1 Trust Framework
+    - 7.5.8.2 Trusted Issuer Lists
+
+  - 7.5.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+    - 7.5.9.1 Trust Framework
+    - 7.5.9.2 Trusted Issuer Lists
+
+  - 7.5.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+    - 7.5.10.1 Trust Framework
+    - 7.5.10.2 Trusted Issuer Lists
+
+  - 7.5.11 UC 11: France-Canada Student Digital Identity (SIROS)
+    - 7.5.11.1 Trust Framework
+    - 7.5.11.2 Trusted Issuer Lists
 
 - 7.6 Standards and Protocols (All UC leads → GRNET)
 
   > All WP4-related specific technical standards and protocols.
 
-  - 7.6.1 UC 1 Technical standards and protocols
+  - 7.6.1 UC 1: Board the flight (Amadeus)
+  - 7.6.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+  - 7.6.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+  - 7.6.4 UC 4: Streamlined Travel Experience (FastID)
+  - 7.6.5 UC 5: Stadium Access (FastID)
+  - 7.6.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+  - 7.6.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+  - 7.6.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+  - 7.6.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+  - 7.6.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+  - 7.6.11 UC 11: France-Canada Student Digital Identity (SIROS)
 
 ### 8. Description of the Ecosystem: Actors and Roles (All UC leads → GRNET)
 
@@ -215,6 +429,18 @@
 - Annex A: Detailed Use Case Specification Sheets (Each UC lead)
 
   > One complete specification sheet per UC (11 total), each following the standardised template from Section 3.4.
+
+  - A.1 UC 1: Board the flight (Amadeus)
+  - A.2 UC 2: Electronic Travel Authorization (ETA) (Amadeus)
+  - A.3 UC 3: Seamless Digital Traveller Experience (SEDIT-X) (UAegean)
+  - A.4 UC 4: Streamlined Travel Experience (FastID)
+  - A.5 UC 5: Stadium Access (FastID)
+  - A.6 UC 6: European Student Experience/Student Access via EUDI Wallet (iDAKTO-PagoPA)
+  - A.7 UC 7: Accessing Discounting Train Fares via EUDIW (PagoPA)
+  - A.8 UC 8: Overnight Hospitality & Cross-border Train Journey (PagoPA)
+  - A.9 UC 9: Biometric Profile - Carrier Held Biometrics - for Seamless Airport Travel (IN Groupe)
+  - A.10 UC 10: Streamlined end-to-end hotel booking (IDnow)
+  - A.11 UC 11: France-Canada Student Digital Identity (SIROS)
 
 - Annex B: List of WP4 Partners and Roles (GRNET)
 
