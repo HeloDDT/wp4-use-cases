@@ -68,6 +68,8 @@ def main():
     # print(json.dumps(sections, indent=4))
 
     subprocess.run(["quarto", "render", "--to", "html"])
+    subprocess.run(["quarto", "render", "--no-clean", "--to", "pdf"])
+    subprocess.run(["quarto", "render", "--no-clean", "--to", "docx"])
 
 
 if __name__ == "__main__":
