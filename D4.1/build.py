@@ -34,6 +34,10 @@ def generate_qmd(md: str) -> str:
     with open(md, "r") as md_file:
         lines = [line for line in md_file]
     qmd = md.replace(".md", ".qmd")
+    # Add section anchor
+    if len(lines) > 0 and lines[0].startswith("#"):
+        sec_anchor = "sec-" + qmd.split("--")[0].replace(".", "_")
+        lines[0] = lines[0][:-1] + " {#" + sec_anchor + "}" + "\n"
     with open(qmd, "w") as qmd_file:
         for line in lines:
             # Fix Mermaid syntax for Quarto
