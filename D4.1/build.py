@@ -73,7 +73,7 @@ def main():
         with open(qmd_file, "a") as f:
             for subsection in top_level_section.values():
                 for input in gather_inputs(subsection):
-                    f.write("{{< include " + input + " >}}\n")
+                    f.write("\n{{< include " + input + " >}}\n")
 
     for first_top_level_section in sections.values():
         qmd_file = first_top_level_section["input"]
