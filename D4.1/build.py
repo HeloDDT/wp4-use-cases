@@ -30,6 +30,18 @@ def gather_inputs(d: dict) -> list:
     return ret
 
 
+def generate_qmd(md: str) -> str:
+    with open(md, "r") as md_file:
+        lines = [line for line in md_file]
+    qmd = md.replace(".md", ".qmd")
+    with open(qmd, "w") as qmd_file:
+        for line in lines:
+            # Fix Mermaid syntax for Quarto
+            line = line.replace('```mermaid', '```{mermaid}')
+            qmd_file.write(line)
+    return qmd
+
+
 def main():
     # Detect section/annex structure
     sections = defaultdict(dict)
@@ -38,8 +50,7 @@ def main():
     for md in md_inputs:
         if section_prefix.match(md):
             print(f"Found section: {md}")
-            qmd = md.replace(".md", ".qmd")
-            shutil.copyfile(md, qmd)
+            qmd = generate_qmd(md)
             section_number_path = md.split("--")[0].split(".")
             set_nested(sections, section_number_path, {"input": qmd})
         elif md.startswith("Annex-"):
